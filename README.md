@@ -5,7 +5,7 @@
 
 ### 安装
 ```
-npm run install
+npm install
 ```
 
 ### 使用
