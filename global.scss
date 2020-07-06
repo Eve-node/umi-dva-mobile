@@ -1,0 +1,45 @@
+$basebgcolor: rgba(59, 130, 224, 1);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0 auto;
+    background: #fff;
+    user-select: none;
+}
+
+body {
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+button:focus,
+input:focus {
+    outline: 0;
+}
+
+.textoverflow {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+}
+
+//默认字体太小在设备上显示模糊
+.am-modal-body{
+    font-size: 16px;
+}
+.am-toast-text{
+    font-size: 16px;
+}

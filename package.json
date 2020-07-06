@@ -1,0 +1,26 @@
+{
+    "scripts": {
+        "dev": "umi dev",
+        "qa": "cross-env UMI_ENV=qa umi dev",
+        "build": "umi build",
+        "qa:build": "cross-env UMI_ENV=qa yarn build",
+        "prod:build": "cross-env UMI_ENV=prod yarn build",
+        "g": "umi generate page"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.2.0",
+        "@commitlint/config-conventional": "^8.2.0",
+        "cross-env": "^7.0.2",
+        "node-sass": "^4.13.0",
+        "postcss-loader": "^3.0.0",
+        "postcss-pxtorem": "^4.0.1",
+        "sass-loader": "^8.0.0",
+        "umi": "^2.10.7",
+        "umi-plugin-react": "^1.12.8",
+        "webpack-chain": "^6.0.0"
+    },
+    "dependencies": {
+        "better-scroll": "^1.15.2",
+        "umi-request": "^1.2.8"
+    }
+}
