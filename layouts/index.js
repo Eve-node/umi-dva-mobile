@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import { connect } from 'dva';
+import View from '@/components/View/index';
+
 @connect(({ common }) => ({ ...common }))
 export default class Layout extends Component {
     componentWillMount() {}
@@ -17,6 +19,6 @@ export default class Layout extends Component {
                 pxTorem();
             });
         })();
-        return <div>{this.props.children}</div>;
+        return <View>{this.props.children}</View>;
     }
 }
